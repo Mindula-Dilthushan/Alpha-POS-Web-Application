@@ -4,7 +4,7 @@
   * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
   */
 import * as Popper from '@popperjs/core';
-import { createPopper } from '@popperjs/core';
+import {createPopper} from '@popperjs/core';
 
 function _defineProperties(target, props) {
   for (var i = 0; i < props.length; i++) {

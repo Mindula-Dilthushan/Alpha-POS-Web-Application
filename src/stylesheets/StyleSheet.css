@@ -1,0 +1,41 @@
+.logo{
+    margin-left: 30px;
+    margin-right: 10px;
+}
+.main_page_logo{
+    width: 50px;
+    height: 50px;
+}
+.navbar-brand span{
+    color: red;
+}
+.navbar-brand{
+    font-size: 1.5rem;
+}
+.img1{
+    position: fixed;
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+}
+.img2{
+     position: fixed;
+     left: 25%;
+     width: 300px;
+     height: 300px;
+     margin: 10px;
+}
+.img3{
+    position: fixed;
+    left: 50%;
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+}
+.img4{
+    position: fixed;
+    left: 75%;
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+}
