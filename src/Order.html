@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>ALPHA POS WEB APPLICATION - Manage Order</title>
+    <meta charset="UTF-8">
+    <link rel="icon" href="asserts/icon/Alpha%20X%20Software%20Company.png">
+    <meta name="viewport" content="width=device-width initial-scale=1 maximum-scale=1 minimum-scale=1">
+    <meta name="theme-color" content="#eccc68">
+    <link rel="stylesheet" href="asserts/css/bootstrap.css">
+    <link rel="stylesheet" href="stylesheets/StyleSheet.css">
+</head>
+<body>
+<img src="asserts/icon/supplier_127px.png" id="manage_item_logo">
+<h1 class="ms-5 mt-4 mb-4 p-3"> Manage Order</h1>
+
+<section class="content">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6">
+
+                <div class="card card-primary" >
+                    <div class="card-header text-white" id="order_header">
+                        <h3 class="card-title">Place Order</h3>
+                    </div>
+
+                    <form role="form">
+                        <div class="card-body" id="order_body">
+                            <div class="form-group">
+                                <label for="order-id">Order ID</label>
+                                <input type="text" class="form-control" readonly="readonly" id="order-id"
+                                       placeholder="Enter Order ID">
+                            </div>
+                            <div class="form-group">
+                                <label for="order-date">Order Date</label>
+                                <input type="text" readonly="readonly" class="form-control" id="order-date">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="order-id">Customer</label>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <select class="form-control" id="cmbCustomer" >
+                                            <option>Select Customer ID</option>
+                                            <option>C001</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <input type="text" class="form-control dropdown-menu-lg-right" readonly="readonly" id="customer-name-order" placeholder="Customer Name">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="order-id">Item</label>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <select class="form-control" id="cmbItem" >
+                                            <option>Select Item ID </option>
+                                            <option>I001</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <input type="text" class="form-control dropdown-menu-lg-right" id="item-desc-order" readonly="readonly"  placeholder="Item Description">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="row">
+                                    <div class="col-lg-6 mt-2">
+                                        <input type="text" class="form-control dropdown-menu-lg-left" id="qtyOnHand-order" readonly="readonly" placeholder="Qty On Hand">
+                                    </div>
+                                    <div class="col-lg-6 mt-2">
+                                        <input type="text" class="form-control dropdown-menu-lg-right" id="unit-price-order" readonly="readonly"  placeholder="Unit Price">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="qty-order">Qty</label>
+                                <input type="text" class="form-control" id="qty-order" placeholder="Enter Qty">
+                            </div>
+                        </div>
+                        <div class="card-footer" id="order_btn_list">
+                            <button type="button" id="add-order" class="btn m-2 text-white">Add Order</button>
+                            <button type="button" id="update-order" class="btn m-2 text-white">Update</button>
+                            <button type="button" id="delete-order" class="btn m-2 text-white">Delete</button>
+                            <button type="button" id="clear-order" class="btn m-2 text-white">Clear</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card card-primary">
+                    <div class="card-header" id="order_list_header">
+                        <h3 class="card-title text-white">Added Orders</h3>
+                    </div>
+                    <div class="card-body" id="place_order_list">
+                        <table class="table table-bordered table-hover" id="tbl-order">
+                            <thead>
+                            <tr>
+                                <th style="width: 15px">PID</th>
+                                <th>Description</th>
+                                <th>Qty</th>
+                                <th>Unit Price</th>
+                                <th>Total</th>
+                                <th style="width: 40px"></th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            </tbody>
+                        </table>
+                        <hr>
+                        <button type="button" id="place-order" class="btn text-white">Place  Order</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+</body>
+</html>

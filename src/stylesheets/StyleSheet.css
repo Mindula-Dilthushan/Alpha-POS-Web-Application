@@ -48,6 +48,7 @@
     height: 50px;
     position: fixed;
     left: 5px;
+    top: 40px;
 }
 #form_header{
     background-image: linear-gradient(to bottom, #96f0ff, #89e8ff, #7de0ff, #73d7ff, #6dceff, #63c7ff, #5bbfff, #56b7ff, #45afff, #33a6ff, #1f9eff, #0095ff);
@@ -80,3 +81,78 @@
     background-color: #ced6e0;
 }
 /*End Customer Form*/
+
+
+/*Start Item Form*/
+#manage_item_logo{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    left: 5px;
+    top: 40px;
+}
+#item_form_header{
+    background-image: linear-gradient(to top, #00d741, #01de4c, #01e657, #01ed62, #01f56c, #19f878, #28fc83, #34ff8e, #49ff9c, #5affa8, #6bffb4, #7bffbf);;
+}
+#item_form_body{
+    background-color: #ced6e0;
+}
+#btn_item_list{
+    background-color: #ced6e0;
+}
+#add-new-item{
+    background-color: #2ed573;
+}
+#save-item{
+    background-color: #27a3ae;
+}
+#update-item{
+    background-color: #fed330;
+}
+#delete-item{
+    background-color: #fc5c65;
+}
+#clear-item{
+    background-color: #4b4b4b;
+}
+#all_item_list{
+    background-image: linear-gradient(to top, #00d741, #01de4c, #01e657, #01ed62, #01f56c, #19f878, #28fc83, #34ff8e, #49ff9c, #5affa8, #6bffb4, #7bffbf);;
+}
+#item_list_body{
+    background-color: #ced6e0;
+}
+/*End Item Form*/
+
+
+/*Start Order Form*/
+#order_header{
+    background-image: linear-gradient(to top, #ffb315, #feb82c, #febd3d, #fdc24b, #fdc759, #fdca63, #fcce6d, #fcd177, #fcd480, #fdd78a, #fdda93, #fddd9c);
+}
+#order_list_header{
+    background-image: linear-gradient(to top, #ffb315, #feb82c, #febd3d, #fdc24b, #fdc759, #fdca63, #fcce6d, #fcd177, #fcd480, #fdd78a, #fdda93, #fddd9c);
+}
+#add-order{
+    background-color: #2ed573;
+}
+#update-order{
+    background-color: #27a3ae;
+}
+#delete-order{
+    background-color: #fc5c65;
+}
+#clear-order{
+    background-color: #4b4b4b;
+}
+#order_body{
+    background-color: #ced6e0;
+}
+#order_btn_list{
+    background-color: #ced6e0;
+}
+#place-order{
+    background-color: #ffb315;
+}
+#place_order_list{
+    background-color: #ced6e0;
+}
+/*End Order Form*/

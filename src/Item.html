@@ -11,5 +11,85 @@
 </head>
 <body>
 
+<img src="asserts/icon/new_product_127px.png" id="manage_item_logo">
+<h1 class="ms-5 mt-4 mb-4 p-3"> Manage Items</h1>
+
+<section class="content">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card card-primary">
+                    <div class="card-header" id="item_form_header">
+                        <h3 class="card-title text-white">Add Items</h3>
+                    </div>
+                    <form role="form">
+                        <div class="card-body" id="item_form_body">
+                            <div class="form-group">
+                                <button type="button" id="add-new-item" class="btn text-white">New +</button>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="item-code">Item Code</label>
+                                <input type="text" class="form-control" readonly="readonly" id="item-code"
+                                       placeholder="Enter Item Code">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="item-description">Item Description</label>
+                                <input type="text" class="form-control" id="item-description"
+                                       placeholder="Enter Item Description">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="qty">Item Qty</label>
+                                <input type="text" class="form-control" id="qty" placeholder="Enter Qty">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="unitPrice">Unit Price</label>
+                                <input type="text" class="form-control" id="unitPrice" placeholder="Enter Unit Price">
+                            </div>
+
+                        </div>
+                        <div class="card-footer" id="btn_item_list">
+                            <button type="button" id="save-item" class="btn m-2 text-white">Save</button>
+                            <button type="button" id="update-item" class="btn m-2 text-white">Update</button>
+                            <button type="button" id="delete-item" class="btn m-2 text-white">Delete</button>
+                            <button type="button" id="clear-item" class="btn m-2 text-white">Clear</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card card-primary">
+                    <div class="card-header " id="all_item_list">
+                        <h3 class="card-title text-white">All Items</h3>
+                    </div>
+                    <div class="card-body" id="item_list_body">
+                        <table class="table table-bordered table-hover" id="tbl-items">
+                            <thead>
+                            <tr>
+                                <th style="width: 10px">Code</th>
+                                <th>Description</th>
+                                <th>Qty On Hand</th>
+                                <th>Unit Price (Rs.)</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td>I001</td>
+                                <td>Rice</td>
+                                <td>1</td>
+                                <td>550</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 </body>
 </html>

@@ -2,15 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e97651a9-6e34-4743-a22a-d742f13a9308" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/demo/CustomerPage.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/HomePage.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Item.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/asserts/fancy-dish.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/asserts/icon/user_127px.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/asserts/paris-plates-slide-WW3N-superJumbo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/customer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/ItemPage.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/OrderPage.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Order.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/asserts/icon/new_product_127px.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/asserts/icon/supplier_127px.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Item.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/Item.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/customer.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/customer.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/stylesheets/StyleSheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/stylesheets/StyleSheet.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,25 +63,27 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+  <component name="RunManager" selected="JavaScript Debug.Item.html">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="Item.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Alpha POS Web Application/src/Item.html" useBuiltInWebServerPort="true">
+      <method v="2" />
     </configuration>
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Alpha POS Web Application/src/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.Item.html" />
         <item itemvalue="JavaScript Debug.index.html" />
       </list>
     </recent_temporary>
@@ -98,6 +100,7 @@
       <workItem from="1613456092733" duration="4000" />
       <workItem from="1613456133093" duration="11277000" />
       <workItem from="1613531846254" duration="7742000" />
+      <workItem from="1613540656979" duration="4065000" />
     </task>
     <servers />
   </component>
