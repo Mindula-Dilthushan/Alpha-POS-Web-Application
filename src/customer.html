@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>ALPHA POS WEB APPLICATION - Manage Customer</title>
+    <meta charset="UTF-8">
+    <link rel="icon" href="asserts/icon/Alpha%20X%20Software%20Company.png">
+    <meta name="viewport" content="width=device-width initial-scale=1 maximum-scale=1 minimum-scale=1">
+    <meta name="theme-color" content="#eccc68">
+    <link rel="stylesheet" href="asserts/css/bootstrap.css">
+    <link rel="stylesheet" href="stylesheets/StyleSheet.css">
+</head>
+<body>
+
+<img src="asserts/icon/user_127px.png" id="manage_cust_logo">
+
+<h1 class="ms-5 mt-4 mb-4"> Manage Customers</h1>
+<section class="content">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card card-primary">
+
+                    <div class="card-header" id="form_header">
+                        <h3 class="card-title text-white">Add Customers</h3>
+                    </div>
+
+                    <form role="form">
+                        <div class="card-body" id="in_cust_header">
+
+                            <div class="form-group">
+                                <button type="button" id="add-new" class="btn fa-pull-right text-white">New +</button>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="customer-id">Customer ID</label>
+                                <input type="text" class="form-control" readonly="readonly" id="customer-id"
+                                       placeholder="Enter Customer ID">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="customer-name">Customer Name</label>
+                                <input type="text" class="form-control" id="customer-name" placeholder="Enter Customer Name">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="customer-address">Customer Address</label>
+                                <input type="text" class="form-control" id="customer-address" placeholder="Enter Customer Address">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="customer-mobile">Customer Mobile Number</label>
+                                <input type="text" class="form-control" id="customer-mobile" placeholder="Enter Customer Mobile Number">
+                            </div>
+                        </div>
+
+                        <div class="card-footer" id="btn_customer_list">
+                            <button type="button" id="save-customer" class="btn m-2 text-white">Save</button>
+                            <button type="button" id="update-customer" class="btn m-2 text-white">Update</button>
+                            <button type="button" id="delete-customer" class="btn m-2 text-white">Delete</button>
+                            <button type="button" id="clear-customer" class="btn m-2 text-white">Clear</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card card-primary" >
+                    <div class="card-header text-white" id="all_cust_list">
+                        <h3 class="card-title">All Customers</h3>
+                    </div>
+                    <div class="card-body" id="all_cust_body">
+                        <table class="table table-bordered table-hover" id="tbl-customers">
+                            <thead>
+                            <tr>
+                                <th style="width: 10px">ID</th>
+                                <th>Name</th>
+                                <th>Address</th>
+                                <th>Mobile Number</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td>C001</td>
+                                <td>Mindula</td>
+                                <td>Matara</td>
+                                <td>076 4184020</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+</body>
+</html>

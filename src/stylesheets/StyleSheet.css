@@ -1,3 +1,4 @@
+/*Start Main Page*/
 .logo{
     margin-left: 30px;
     margin-right: 10px;
@@ -39,3 +40,43 @@
     height: 300px;
     margin: 10px;
 }
+/*End Main Page*/
+
+/*Start Customer Form*/
+#manage_cust_logo{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    left: 5px;
+}
+#form_header{
+    background-image: linear-gradient(to bottom, #96f0ff, #89e8ff, #7de0ff, #73d7ff, #6dceff, #63c7ff, #5bbfff, #56b7ff, #45afff, #33a6ff, #1f9eff, #0095ff);
+}
+#add-new{
+    background-color: #3dc1d3;
+}
+#save-customer{
+    background-color: #27ae60;
+}
+#update-customer{
+    background-color: #fed330;
+}
+#delete-customer{
+    background-color: #fc5c65;
+}
+#clear-customer{
+    background-color: #4b4b4b;
+}
+#in_cust_header{
+    background-color: #ced6e0;
+}
+#btn_customer_list{
+    background-color: #ced6e0;
+}
+#all_cust_list{
+    background-image: linear-gradient(to bottom, #96f0ff, #89e8ff, #7de0ff, #73d7ff, #6dceff, #63c7ff, #5bbfff, #56b7ff, #45afff, #33a6ff, #1f9eff, #0095ff);
+}
+#all_cust_body{
+    background-color: #ced6e0;
+}
+/*End Customer Form*/
